@@ -1,0 +1,90 @@
+.contenedor-total-del-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+  }
+  
+  .contenedor-unicamente-logo img {
+    width: 27%;
+    margin-left: 320px;
+    cursor: pointer;
+  }
+  
+  .icono-tiendas-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin: auto 26px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .icono-tiendas-header{
+        display: none;
+    }
+  }
+  
+  .icono-tiendas-header h2 {
+    margin-left: 5px;
+  }
+  
+  .contendor-busquedar-header {
+    position: relative; 
+  }
+  @media screen and (max-width: 768px) {
+    .contendor-busquedar-header{
+        display: none;
+    }
+  }
+  .contendor-busquedar-header button {
+    background: none;
+    border-radius: 20px;
+    border-color: black;
+    width: 240px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto 80px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contendor-busquedar-header input {
+    width: 200px;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    outline: none;
+    margin: auto 80px;
+  }
+  
+  .contendor-busquedar-header.active button {
+    display: none; 
+  }
+  
+  .search-indicator {
+    position: absolute;
+    top: 50px; 
+    right: 80px; 
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contenedor-unicamente-logo img {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: -45%;
+    }
+  }

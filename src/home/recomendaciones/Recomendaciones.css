@@ -1,0 +1,38 @@
+.contenedor-de-las-recomendaciones{
+    display: flex;
+    margin-left:20rem;
+}
+
+.titulo-de-recomendaciones{
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px){
+    .titulo-de-recomendaciones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+.botones-recomendaciones{
+    padding: 10px 20px;
+    margin-left: 6px;
+    background: transparent;
+    border: 0.6px solid black;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .contenedor-de-las-recomendaciones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+        margin-left: 0; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}

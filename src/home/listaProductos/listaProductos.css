@@ -1,0 +1,90 @@
+.Titulos-productos{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contendor-carta{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    z-index: -2;
+}
+
+@media (min-width:1100px) and (max-width: 1390px) {
+    .contendor-carta{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 7rem;
+        margin-top: 2rem;
+        z-index: -2;
+    }
+}
+@media (min-width:700px) and (max-width: 1000px) {
+    .contendor-carta{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        z-index: -2;
+    }
+}
+@media (min-width:1700px){
+    .contendor-carta{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 17rem;
+        margin-top: 2rem;
+        z-index: -2;
+    }
+}
+@media screen and (max-width:768px) {
+    .contenedor-todos-los-productos{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -100px;
+    }
+}
+.contendor-carta img:hover{
+    transform: scale(1.05);
+}
+.carta{
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.image-carta{
+width: 13rem;
+margin-bottom: 1rem;
+}
+
+.titulo-carta{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recomendado-seccion{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-estrellas{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-todos-los-productos{
+    display: flex;
+}

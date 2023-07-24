@@ -1,0 +1,68 @@
+.topbar-descuentos-visibles {
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    background-color: #f1f1f1;
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  .topbar-descuentos-visibles p {
+    font-weight: 200;
+    font-size: .85rem;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    margin: 0; 
+    position: absolute;
+    top: 19px;
+    width: 100%;
+  }
+  
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0; 
+    }
+  }
+  
+  .iniciar-seccion-necesitas-ayuda-conteiner {
+    position: relative;
+    text-align: end;
+    margin-left: auto; 
+  }
+
+  .iniciar-seccion-necesitas-ayuda-conteiner a{
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    .iniciar-seccion-necesitas-ayuda-conteiner {
+        display: none;
+        height: 60px;
+      }
+      .topbar-descuentos-visibles p{
+        top: 10px;
+      }
+  }
