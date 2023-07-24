@@ -89,6 +89,9 @@ const ListaProductos = () => {
         </section>
      </section>
     </div>
+    <div className='texto-seo-al-final'>
+     <p>Bienvenidos a nuestra apasionante marca de ropa, donde la moda y el estilo se fusionan para expresar tu personalidad única y audaz. Nuestra marca se enorgullece de crear prendas que destacan por su calidad, diseño innovador y un toque de vanguardia. Ya seas un amante de la moda o simplemente buscas vestirte con confianza, tenemos algo especial para ti.</p>
+    </div>
      </>
   )
 }

@@ -88,3 +88,7 @@ margin-bottom: 1rem;
 .contenedor-todos-los-productos{
     display: flex;
 }
+.texto-seo-al-final{
+    width: 100%;
+    text-align: center;
+}
