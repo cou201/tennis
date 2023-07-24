@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Home page Tennis.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Para inicializar el repositorio hazlo de la siguiente manera
+1)Clona el repositorio puede ser en una carpeta nueva o existente
+2)En tu visual studio code Descarga material ui, fue la unica herramienta utilizada en este proyecto por aparte del react.js lo puedes instalar si ya no viene instalado con el siguiente comando en tu terminal: npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+3)Una vez instalado en tu terminal escribe "npm start" para que el proyecto comience a crear un host
+4)Ya puedes analizarlo
 
-## Available Scripts
+### Tambien tienes la opcion de revisarlo en el siguiente enlace en un host gratuito:
+Url:https://tennis-sooty.vercel.app/
 
-In the project directory, you can run:
+### Que tiene la pagina?
+La pagina es una alucion al home page de Tennis con unos cambios incluyendo el tema "CyberDays" de la prueba tambien se puede tener en cuenta los siguientes ajustes
+1)El boton de busqueda hace un efecto de busqueda ("No va a encontrar producto ya que no hay back") aun asi si te fijas no va a quitarse el efecto hasta que le undas a cualquier otro apartado de la pagina.
+2)El boton de nuestras tiendas tambien es funcional.
+3)El topbar tiene movimiento como el original, este cuenta con 3 mensajes los cuales se pueden incrementar de ser necesario.
+4)El menu cuenta con las url originales, es decir les puedes undir e ir a las landings designadas.
+5)El banner principal cuenta con movimiento por el momento solo hay dos imagenes mas aun asi este se puede incrementar tipo carrusel.
+6)Debajo de este banner home hay tres botones, estos tienen efectos especiales de hover.
+7) inclui 3 banners los cuales pueden ser alucivos a eventos, promociones, novedades, llegadas e.t.c
+8)No conte con una api asi que en archivo "db" hay una que cree con ciertos articulos pero al no tener una fija lo cree para que pudieran visualizar las opciones y de esas escogi 6 principalmente
+9)Es responsive, lo unico que no existe en mobile que si en desktop es el menu ya que este seria desplegable y por el momento no lo vi necesario de igual forma si para calcular mis habilidades lo requieren sin problema alguno lo hare
+10)Para finalizar queda de menos decir que tambien cuenta con su texto seo, metatags, descripcion final e icono 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+David estrada "cou"
