@@ -18,7 +18,8 @@ La pagina es una alucion al home page de Tennis con unos cambios incluyendo el t
 5)El banner principal cuenta con movimiento por el momento solo hay dos imagenes mas aun asi este se puede incrementar tipo carrusel.
 6)Debajo de este banner home hay tres botones, estos tienen efectos especiales de hover.
 7) inclui 3 banners los cuales pueden ser alucivos a eventos, promociones, novedades, llegadas e.t.c
-8)Para finalizar no conte con una api asi que en archivo "db" hay una que cree con ciertos articulos pero al no tener una fija lo cree para que pudieran visualizar las opciones y de esas escogi 6 principalmente
+8)No conte con una api asi que en archivo "db" hay una que cree con ciertos articulos pero al no tener una fija lo cree para que pudieran visualizar las opciones y de esas escogi 6 principalmente
 9)Es responsive, lo unico que no existe en mobile que si en desktop es el menu ya que este seria desplegable y por el momento no lo vi necesario de igual forma si para calcular mis habilidades lo requieren sin problema alguno lo hare
+10)Para finalizar queda de menos decir que tambien cuenta con su texto seo, metatags, descripcion final e icono 
 
 David estrada "cou"
